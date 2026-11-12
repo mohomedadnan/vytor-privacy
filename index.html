@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سياسة الخصوصية | Privacy Policy - Vytor (Open GYM)</title>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card-bg: #181b22;
+      --text: #f0f2f5;
+      --text-muted: #9ba3af;
+      --accent: #ff6b35;
+      --border: #262c38;
+      --highlight: rgba(255, 107, 53, 0.12);
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card-bg: #ffffff;
+        --text: #111827;
+        --text-muted: #64748b;
+        --accent: #e65100;
+        --border: #e2e8f0;
+        --highlight: rgba(230, 81, 0, 0.08);
+      }
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.8;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 36px 32px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+    .lang-switcher {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .lang-btn {
+      background: var(--border);
+      color: var(--text);
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .lang-btn.active {
+      background: var(--accent);
+      color: #fff;
+    }
+    h1 {
+      font-size: 26px;
+      margin-top: 0;
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    h2 {
+      font-size: 19px;
+      margin-top: 32px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+    h3 {
+      font-size: 16px;
+      margin-top: 18px;
+      color: var(--accent);
+    }
+    p, li {
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+    ul {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .callout {
+      background: var(--highlight);
+      border-right: 4px solid var(--accent);
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+      font-weight: 500;
+    }
+    .callout-en {
+      border-right: none;
+      border-left: 4px solid var(--accent);
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      background: var(--border);
+      color: var(--accent);
+      font-weight: 700;
+      border-radius: 6px;
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+    .en-section {
+      direction: ltr;
+      text-align: left;
+      display: none;
+    }
+    .ar-section {
+      direction: rtl;
+      text-align: right;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="lang-switcher">
+      <button class="lang-btn active" id="btn-ar" onclick="switchLang('ar')">العربية</button>
+      <button class="lang-btn" id="btn-en" onclick="switchLang('en')">English</button>
+    </div>
+
+    <!-- ARABIC SECTION -->
+    <div class="ar-section" id="section-ar">
+      <span class="badge">Google Play Compliant • سياسة بيانات المستخدمين</span>
+      <h1>سياسة الخصوصية لتطبيق فايتور (Open GYM)</h1>
+      <p><strong>تاريخ السريان وآخر تحديث:</strong> 12 نوفمبر 2026<br>
+      <strong>معرف الحزمة:</strong> <code>com.vytor.app</code></p>
+
+      <div class="callout">
+        <strong>ملخص حماية الخصوصية:</strong> تطبيق فايتور يعمل بالكامل <strong>بدون إنترنت (Offline-First)</strong>، ولا يطلب إنشاء حسابات، ولا يقوم بجمع أو بيع أو نقل أي بيانات شخصية أو صحية إلى أي خوادم خارجية.
+      </div>
+
+      <h2>1. الإفصاح عن بيانات الصحة و Health Connect (مخصص لـ Google Play)</h2>
+      <p>يصل تطبيق فايتور إلى بيانات الصحة والنشاط البدني باستخدام واجهة برمجة تطبيقات <strong>Google Health Connect</strong> وأذونات الصحة لنظام أندرويد (<code>android.permission.health.READ_STEPS</code>).</p>
+      
+      <h3>أ. ما هي البيانات الصحية التي نصل إليها؟</h3>
+      <ul>
+        <li><strong>عدد الخطوات اليومية (Daily Step Count)</strong> المسجلة في هاتفك عبر تطبيق Health Connect.</li>
+      </ul>
+
+      <h3>ب. كيف نصل إلى هذه البيانات ونستخدمها؟</h3>
+      <ul>
+        <li><strong>الغرض الوحيد:</strong> نصل إلى بيانات الخطوات فقط لحساب وعرض تقدمك الرياضي ومستوى نشاطك اليومي محلياً داخل شاشات التطبيق والودجات.</li>
+        <li><strong>معالجة محلية بالكامل (On-Device Processing):</strong> تتم جميع العمليات وقراءة البيانات على جهازك فقط.</li>
+        <li><strong>لا تخزين خارجي ولا سحابي:</strong> نحن <strong>لا نقوم</strong> برفع أو تخزين أو نقل بيانات الصحة إلى أي خادم خارجي أو قاعدة بيانات سحابية.</li>
+        <li><strong>لا مشاركة مع أطراف ثالثة:</strong> لا يتم إطلاقاً بيع أو مشاركة بيانات Health Connect مع شركات الإعلانات، أو وسطاء البيانات، أو أي جهات تسويقية.</li>
+        <li><strong>حظر تام للاستخدام الإعلاني:</strong> البيانات الصحية لا تُستخدم أبداً في أي إعلانات موجهة أو تتبع سلوكي.</li>
+      </ul>
+
+      <h3>ج. التحكم في الإذن وإلغاؤه:</h3>
+      <p>إذن قراءة الخطوات اختياري تماماً. يمكنك منح أو رفض أو إلغاء الإذن في أي وقت من خلال:<br>
+      <strong>إعدادات الهاتف > الخصوصية والأمان > Health Connect > أذونات التطبيقات > فايتور (Vytor)</strong>.</p>
+
+      <h2>2. تخزين البيانات العامة والتمارين</h2>
+      <p>تُحفظ كافة سجلات التمارين، الجولات، الأوزان، والملاحظات محلياً فقط على هاتفك داخل الذاكرة المحلية (<code>SharedPreferences</code>). لا توجد قواعد بيانات سحابية مرتبطة بالتطبيق.</p>
+
+      <h2>3. أذونات الجهاز الإضافية</h2>
+      <ul>
+        <li><strong>الإشعارات (<code>POST_NOTIFICATIONS</code>):</strong> لتنبيهك عند انتهاء وقت الراحة بين المجموعات.</li>
+        <li><strong>المنبه الدقيق (<code>SCHEDULE_EXACT_ALARM</code> / <code>USE_EXACT_ALARM</code>):</strong> لتشغيل مؤقت الراحة بالثواني بدقة تامة.</li>
+      </ul>
+
+      <h2>4. حذف البيانات</h2>
+      <p>يمكنك حذف كافة بياناتك بضغطة واحدة من خلال مسح بيانات التطبيق من إعدادات الهاتف، أو عند إلغاء تثبيت التطبيق.</p>
+
+      <h2>5. التواصل معنا</h2>
+      <p>إذا كانت لديك أي أسئلة حول سياسة الخصوصية، يمكنك مراسلتنا عبر البريد الإلكتروني:<br>
+      <strong>البريد:</strong> <code>support@vytor.app</code></p>
+    </div>
+
+    <!-- ENGLISH SECTION -->
+    <div class="en-section" id="section-en">
+      <span class="badge">Google Play Compliant • User Data Policy</span>
+      <h1>Privacy Policy for Vytor (Open GYM)</h1>
+      <p><strong>Effective & Last Updated:</strong> November 12, 2026<br>
+      <strong>Package ID:</strong> <code>com.vytor.app</code></p>
+
+      <div class="callout callout-en">
+        <strong>Privacy Summary:</strong> Vytor operates entirely <strong>offline (Offline-First)</strong>. It requires no user account, contains no ads or trackers, and does not collect, transmit, or sell any personal or health data.
+      </div>
+
+      <h2>1. Health Data & Health Connect Disclosure (Google Play Compliance)</h2>
+      <p>Vytor accesses health and physical activity data through Google's <strong>Health Connect</strong> platform using the permission (<code>android.permission.health.READ_STEPS</code>).</p>
+
+      <h3>A. What Health Data We Access</h3>
+      <ul>
+        <li><strong>Daily Step Count (<code>READ_STEPS</code>):</strong> We access the step count data recorded by your device via Health Connect.</li>
+      </ul>
+
+      <h3>B. How We Access and Use Health Data</h3>
+      <ul>
+        <li><strong>Sole Purpose:</strong> We access step data solely to display your daily walking progress, activity goals, and workout statistics locally within the application.</li>
+        <li><strong>On-Device Processing:</strong> All health data is processed and calculated strictly on your local device.</li>
+        <li><strong>No Cloud or Server Storage:</strong> We do <strong>not</strong> upload, transfer, transmit, or store your Health Connect data on any remote servers, cloud infrastructure, or external databases.</li>
+        <li><strong>No Third-Party Sharing:</strong> We <strong>never</strong> sell, rent, disclose, or transfer your health data to third-party advertisers, data brokers, or marketing networks.</li>
+        <li><strong>Prohibited Uses:</strong> Health data is never used for advertising, tracking, or profiling.</li>
+      </ul>
+
+      <h3>C. User Control & Revocation</h3>
+      <p>Access to Health Connect is optional. You can grant, deny, or revoke access at any time via:<br>
+      <strong>Android Settings > Security & Privacy > Privacy > Health Connect > App permissions > Vytor</strong>.</p>
+
+      <h2>2. Workout Data & Local Storage</h2>
+      <p>All workouts, routines, sets, weights, and progress photos are stored exclusively in your device's local memory (<code>SharedPreferences</code>). No accounts or cloud sync required.</p>
+
+      <h2>3. Device Permissions Explained</h2>
+      <ul>
+        <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>):</strong> Used solely to alert you when your workout rest timer expires.</li>
+        <li><strong>Exact Alarms (<code>SCHEDULE_EXACT_ALARM</code> / <code>USE_EXACT_ALARM</code>):</strong> Used solely to trigger precise countdown timers between exercise sets.</li>
+      </ul>
+
+      <h2>4. Data Deletion</h2>
+      <p>You can permanently delete all data at any time by clearing application storage in Android Settings or by uninstalling the app.</p>
+
+      <h2>5. Contact Us</h2>
+      <p>If you have any questions regarding this Privacy Policy, please contact us at:<br>
+      <strong>Email:</strong> <code>support@vytor.app</code></p>
+    </div>
+
+    <footer>
+      &copy; 2026 Vytor (Open GYM). All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    function switchLang(lang) {
+      if (lang === 'en') {
+        document.getElementById('section-ar').style.display = 'none';
+        document.getElementById('section-en').style.display = 'block';
+        document.getElementById('btn-ar').classList.remove('active');
+        document.getElementById('btn-en').classList.add('active');
+        document.documentElement.dir = 'ltr';
+      } else {
+        document.getElementById('section-ar').style.display = 'block';
+        document.getElementById('section-en').style.display = 'none';
+        document.getElementById('btn-en').classList.remove('active');
+        document.getElementById('btn-ar').classList.add('active');
+        document.documentElement.dir = 'rtl';
+      }
+    }
+  </script>
+</body>
+</html>
